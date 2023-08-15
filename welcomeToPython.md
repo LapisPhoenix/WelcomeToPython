@@ -122,6 +122,12 @@ my_lucky_number = 7
 
 You can add them, subtract them, anything you can normally do with math.
 
+# Float
+Floats are just decimal points, you can use very small, and very big decimals.
+```python
+random_float = 0.28
+```
+
 # Strings
 A string is basically a sentence. You can contain emojis, normal words, anything (normal) inside a string. You can make a string by just saying like this:
 ```python
