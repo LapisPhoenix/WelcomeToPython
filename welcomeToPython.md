@@ -23,7 +23,7 @@ Python is a interpreted language, which means it gets converted to a computer re
 
 # Chapter 2 - Why use Python?
 
-There are many reasons to use Python, one of them being its an easy language to learn and get things done in! Its also used in things like:
+There are many reasons to use Python, one of them being its an easy language to learn and get things done quickly! Its also used in things like:
 1. AI/Machine Learning
 2. Data Science
 3. Automation
