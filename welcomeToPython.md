@@ -48,7 +48,7 @@ So, you want to use Python? Great! Before we can get coding, we have todo some c
 Firstly, in order to use python, we need to download Python (duh)! You can click [here](https://www.python.org/downloads/) for a download link. When you're downloading python, make sure to click this button:<br>
 ![screenshot](https://cdn.discordapp.com/attachments/1134759865093464125/1140879586893234216/image.png)
 
-Secondly, we need to pick our code editor (often called an IDE). There are several out there, but I always reccommend two. [Vscodium](https://vscodium.com/) and [Pycharm](https://www.jetbrains.com/pycharm/) Both are free (for Pycharm pick community option), and open source (meaning you can read the code). Here are some pros and cons of each:
+Secondly, we need to pick our code editor (often called an IDE). There are several out there, but I always recommend two. [Vscodium](https://vscodium.com/) and [Pycharm](https://www.jetbrains.com/pycharm/) Both are free (for Pycharm pick community option), and open source (meaning you can read the code). Here are some pros and cons of each:
 
 ## Vscodium
 ### Pros:
@@ -71,11 +71,11 @@ Secondly, we need to pick our code editor (often called an IDE). There are sever
 - Not all VScode extensions are supported on Pycharm
 
 
-For most people, I think Vscodium will better for beginners, but you can choose either one. If you have used jetbrain products before, than I reccommend Pycharm, if not then Vscodium.
+For most people, I think Vscodium will better for beginners, but you can choose either one. If you have used jetbrain products before, than I recommend Pycharm, if not then Vscodium.
 
 
 ### For Windows, Vscodium Users
-If youre using Vscodium, Id reccommend doing one last thing, using Python's package manager (pip) we should install `virtualenv`, this will help use keep our computer enviroment clean. You can do this by enter the following command inside the command prompt. (Access the command prompt pressing `WIN+R` and typing `cmd` and pressing `ENTER`)
+If youre using Vscodium, Id recommend doing one last thing, using Python's package manager (pip) we should install `virtualenv`, this will help use keep our computer enviroment clean. You can do this by enter the following command inside the command prompt. (Access the command prompt pressing `WIN+R` and typing `cmd` and pressing `ENTER`)
 ```bash
 pip install virtualenv
 ```
@@ -224,7 +224,7 @@ name = "Lapis"
 print(f"Welcome to Python {name}!")
 ```
 
-All 3 ways will produce (almost) the same affect, but its reccommended you use F-Strings. Now that you have all this knowledge, try using all 3 methods of concating things. If you did the challenge ealier, try now adding concatenation to your strings. If you didnt, just make some new print statements and use all 3 methods.
+All 3 ways will produce (almost) the same affect, but its recommended you use F-Strings. Now that you have all this knowledge, try using all 3 methods of concating things. If you did the challenge ealier, try now adding concatenation to your strings. If you didnt, just make some new print statements and use all 3 methods.
 
 
 ### Finally, Comments
