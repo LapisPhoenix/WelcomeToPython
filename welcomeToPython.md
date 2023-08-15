@@ -33,7 +33,7 @@ There are many reasons to use Python, one of them being its an easy language to 
 Python is a very popular language, and many companies use Python, so its a great language to learn even if its just for a Job. It looks great on an resume! Beyond its popularity, its one of the easiest languages to use to produce something, and there are Thousands of community made packages to use, so its easy to create many things. If you look around you can see Python everywhere!
 
 While this is all true, Python isnt a perfect language, and isnt suitable for all situations. Heres why you might not want to use Python:
-1. Its Very Slow. Compaired to languages like Go, Rust, or C++, and isnt suitable for very computational tasks
+1. Its Very Slow. Compaired to languages like Go, Rust, or C++, and isnt suitable for very complex things
 2. Its a high level language, which means you cant do things that something like C++ can, which is a lower level language (think like interacting directly with computer parts)
 3. You cant (easily) compile Python, which means if someone else wants to use your project, they need Python installed
 
