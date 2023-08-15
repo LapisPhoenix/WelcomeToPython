@@ -8,7 +8,7 @@
 | What is Python? | We will cover what is Python, and other specific langauge detials. |
 | Why use Python? | We will cover the pros and cons of Python compaired to other languages. |
 | Setting up our enviroment | Basic enviroment setup, choosing an IDE, and installing Python. |
-| Basic Concepts | We will cover variables, strings, ints, bools, conditionals, printing and other smaller basics|
+| Basic Concepts | We will cover variables, strings, integers, booleans, conditionals, printing and other smaller basics|
 
 
 ---
@@ -71,11 +71,11 @@ Secondly, we need to pick our code editor (often called an IDE). There are sever
 - Not all VScode extensions are supported on Pycharm
 
 
-For most people, I think Vscodium will better for beginners, but you can choose either one. If you have used jetbrain products before, than I recommend Pycharm, if not then Vscodium.
+For most people, I think Vscodium will better be for beginners, but you can choose either one. If you have used jetbrain products before, than I recommend Pycharm, if not then Vscodium.
 
 
 ### For Windows, Vscodium Users
-If youre using Vscodium, Id recommend doing one last thing, using Python's package manager (pip) we should install `virtualenv`, this will help use keep our computer enviroment clean. You can do this by enter the following command inside the command prompt. (Access the command prompt pressing `WIN+R` and typing `cmd` and pressing `ENTER`)
+If youre using Vscodium, Id recommend doing one last thing, using Python's package manager (pip) we should install `virtualenv`, this will help use keep our computer enviroment clean. You can do this by entering the following command inside the command prompt. (Access the command prompt pressing `WIN+R` and typing `cmd` then pressing `ENTER`)
 ```bash
 pip install virtualenv
 ```
@@ -100,7 +100,7 @@ Congrats, youve made it through probably the most boring part of this whole thin
 In almost any language you see, whether it be a modern langauge or an ancient language, they all have basic concepts. I will cover these basic concepts in order of what I think you should learn in order.
 
 # Variables
-Variables are like containers. They hold data, anything from ints, strings,     bools, (which we cover all those shortly) or anything else. You will use variables for lots of things. How do you make a variable (also called delcaring)? Well its simple. Write the name of the variable, then an "=" then what you want to store. For example, we can hold an age, with a variable called age.
+Variables are like containers. They hold data, anything from ints, strings, bools, (which we cover all those shortly) or anything else. You will use variables for lots of things. How do you make a variable (also called delcaring)? Well its simple. Write the name of the variable, then an "=" then what you want to store. For example, we can hold an age, with a variable called age.
 ```python
 age = 28
 ```
@@ -133,7 +133,7 @@ A string is basically a sentence. You can contain emojis, normal words, anything
 ```python
 my_name = "John Doe"
 ```
-A string can with single quotes ( ' ) or double quotes ( " ), but whatever you choose, you can to also close with that same character. You cant mix them. You can also create mutli-line strings, by instead using 3 quotes instead. Like this:
+A string can be made with single quotes ( ' ) or double quotes ( " ), but whatever you choose, you have to also close with that same character. You cant mix them. You can also create mutli-line strings, by instead using 3 quotes instead. Like this:
 ```python
 random_words = '''Doge
 Boris
@@ -146,7 +146,7 @@ You can also use either single or double quotes with multi-line strings too.
 Now **you** try it! Create different strings, see what you can make!
 
 # Bools & If Statements
-A bool, or boolean is a like a yes or no question, but instead of saying yes or no we say `True` or `False`. This is used in conditionals, like if `xyz` then do `abc`. Booleans are used in `if-statments`. If statements are used to check if a condition is true. Here is one in action:
+A bool, or boolean is like a yes or no question, but instead of saying yes or no we say `True` or `False`. This is used in conditionals, like: "if `xyz` then do `abc`". Booleans are used in `if-statments`. If statements are used to check if a condition is true. Here is one in action:
 
 ```python
 is_16 = False
@@ -166,7 +166,7 @@ Here is a list of all conditional symbols you can use, and their meaning:
 5. `<`  : Is less than
 6. `!=` : Is not equal to
 
-Man, thats alot isnt it. Go ahead in try it! Create a couple of variables and use those symbols, see what happens! Dont worry if you get an error, try googling it, see what comes up and fix it! Feel free to come back to this and use this to help you. When youre ready, move on!
+Man, thats alot isnt it. Go ahead n' try it! Create a couple of variables and use those symbols, see what happens! Dont worry if you get an error, try googling it, see what comes up and fix it! Feel free to come back to this and use this to help you. When youre ready, move on!
 
 
 # Printing
@@ -177,7 +177,7 @@ To print something on the screen its rather simple, we just use the `print()` fu
 print("Hello, World!")
 ```
 
-Woah! You just made text print to the screen! Congrats 🎉🎉! This your first step to a great programming carrer, hobby, or whatever. For this next part, follow along. Lets expand on this, lets create a variable called name.
+Woah! You just made text print to the screen! Congrats 🎉🎉! This your first step to a great programming carrer, hobby, or whatever. For this next part, follow along. How about we expand on this, lets create a variable called name.
 
 ```python
 name = "Lapis"
@@ -195,7 +195,7 @@ Output:
 Lapis
 ```
 
-Now that we've figured out how to print a name, go make a few more variables, print those out. For those who like a challenge, try this: Create a variable with a name, use an if statement to check if the name is equal to a different name, if it is then print something, else print something else. Feel free to use google, but really try your best. Remember its alright if you cant do it, just like any other skill, youll learn the more you practice.
+Now that we've figured out how to print a name, go make a few more variables, print those out. For those who like a challenge, try this: Create a variable with a name, use an if statement to check if the name is the same to a different name, if it is then print something, else print something different. Feel free to use google, but really try your best. Remember its alright if you cant do it, just like any other skill, youll learn the more you practice.
 
 ## Concatenation
 Right now we are just printing a name, and thats kinda boring, isnt it. Well, how about we turn that boring name into a welcome message! In Python, you can concatenate strings with variables, in several ways, but there are 3 main ways. I will show you all 3.
@@ -244,6 +244,6 @@ print(f"{a} * {b} = {c}")
 ---
 
 # Congratulations!
-Youve just learned some of the basics of Python! I know that was probably alot of information to intake, so feel free to re-read parts of the tutorial, and make sure to practice. ***Practice is key!*** Also remember, asking for help is okay, googling is okay, infact I encourage it. Go make some new programs, try fixing them, and if you cant, move on. 
+Youve just learned some of the basics of Python! I know that was probably alot of information to take in, so feel free to re-read parts of the tutorial, and make sure to practice. ***Practice is key!*** Also remember, asking for help is okay, googling is okay, infact I encourage it. Go make some new programs, try fixing them, and if you cant, move on. 
 
 Good luck, fellow programmer.
